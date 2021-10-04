@@ -1,0 +1,43 @@
+@media (max-width: 719px)
+{
+    .c_res_alignment
+    {
+        text-align: center;
+        justify-content: center;
+    }
+    .hide-on-mobile
+    {
+        display: none;
+    }
+}
+@media (min-width: 720px)
+{
+    .c_res_alignment
+    {
+        text-align: left;
+        justify-content: left;
+    }
+}
+
+.c_text_line_bottom
+{
+    border-bottom: 2px solid #343A40;
+}
+
+.c_text_line_top
+{
+    border-top: 2px solid #343A40;
+}
+
+.c_line
+{
+    width: 13;
+    border-bottom: 2px solid #343A40;
+}
+
+.c_img_fit
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
